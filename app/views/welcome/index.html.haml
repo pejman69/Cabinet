@@ -1,1 +1,18 @@
-%h1 Voila! this is placeholder!
+#banner
+    .banner_content
+        %h1 File Cabinet
+        %p Your life's work. Organized, always.
+        = link_to "Enter", new_user_registration_path, class: "button"
+
+#callouts
+    .callout_inner
+        .wrapper
+            .callout
+                %h2 Organize
+                %p Man braid tumeric quinoa dreamcatcher vexillologist, meh pork belly bespoke cred messenger bag distillery fixie ramps irony tattooed. Hoodie tattooed cold-pressed, adaptogen tilde hammock fashion axe williamsburg dreamcatcher waistcoat.
+
+#bottom_cta
+    .wrapper
+    %h2 Go Ahead!
+    %br/
+    = link_to "Join Now", new_user_registration_path, class: "button"
